@@ -1,0 +1,44 @@
+.poup{
+    display: flex;
+    border-bottom: 3px solid #c4c4c4;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 6%;
+    padding-bottom: 10%;
+    padding-left: 3%;
+}
+.poup img{
+    width: 30%;
+    height: 70%;
+    padding-top: 10%;
+   
+}
+.poup h2{
+    padding-top: 20%;
+    font-size: 270%;
+    margin-right: -40%;
+}
+.poup button{
+    height: 9%;
+}
+.poup p{
+    margin-right: -15%;
+}
+.inde{
+    display: flex;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.inde img{
+    width: 30%;
+    height: 80%;
+}
+.inde button{
+    height: 10%;
+}
+.inde p{
+   margin-right: -7%;
+}
+.inde2{
+    padding-left: 2.3%;
+}

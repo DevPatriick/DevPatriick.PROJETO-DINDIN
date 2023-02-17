@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+header{
+    background: #2E948A;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+}
+ul{
+    display: flex;
+    font-size: 100%;
+    justify-content: space-around;
+    margin-right: 10%;
+    padding-right: 10%;
+    padding-left:10%;
+
+}
+.list ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15%;
+    margin-left: 10%;
+    margin-left: 10%;
+    padding-left: 10%;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.logoheader{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+}
+.list{
+    padding-right: 15%;
+}
+
+.maisconteudo{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 7%;
+}
+.text h1{
+    color: #2E948A;
+}
+.text h1{
+    font-size: 300%;
+    width: 70%%;
+}
+.text p{
+    font-size: 110%;
+    padding-top: 5%;
+}
+.text{
+    padding-top: 9%;
+    padding-left: 10%;
+}
+#img{
+    padding-top: 4%;
+    padding-right: 9%;
+}
+
+
+.conteudos{
+    background: #E5E5E5;
+}
+
+.linha1 {
+    display: flex;
+    justify-content: center;
+    padding-left: 8%;
+    padding-top: 7%;
+}
+.linha1 h3{
+    font-size: 175%;
+    padding-top: 5%;
+    color: #FF4081;
+}
+.linha1 p{
+    margin-right: 15%;
+    padding-top: 5%;
+}
+.linha2 {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8%;
+    margin-top: -12%;
+}  
+.linha2 h3{
+    font-size: 175%;
+    padding-top: 5%;
+    color: #FF4081;
+}
+.linha2 p{
+    margin-right: 15%;
+    padding-top: 5%;
+}
+.linha3 {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8%;
+    margin-top: -12%;
+}  
+.linha3 h3{
+    font-size: 175%;
+    padding-top: 5%;
+    color: #FF4081;
+}
+.linha3 p{
+    margin-right: 15%;
+    padding-top: 5%;
+}
+footer{
+    background-color: #2E948A;
+    height: 210px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+.rodape button {
+    display: grid;
+    border-color: white;
+    background: #2E948A;
+    color: white;
+    border-bottom-color: white;
+    width: 140%;
+    margin-left: -80%;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 5%
+}
+.rodape button p{
+    font-size: 160%;
+    margin-top: 4%;
+}
+#logofooter{
+    padding-top: 6%;
+    padding-left: 4%;
+}
+.list2 ul a li{
+    font-size: 130%;
+    color: white;
+}
+.list2{
+    padding-top: 1%;
+    padding-right: 20%;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.rodape .list2 ul{
+    display: grid;
+    padding-top: 60%;
+}
+.rodape li{
+    padding-top: 20%
+}
+#butao1{
+    padding-top: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+    .header{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15%;
+        padding-right: 35%;
+        background-color: #2E948A;
+        height: 170px;
+        padding-top: 1%;
+    }
+    ul{
+        display: flex;
+        font-size: 13px;
+        justify-content: space-around;
+        margin-right: 10%;
+        margin-left: 50%;
+       padding-top: -100%;
+
+    }
+    .logoheader{
+        padding-top: 10%;
+        padding-bottom: -5%;
+        padding-right: 10%;
+        width: 80%;
+        padding-left: 29%;
+    }
+    .list ul a {
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-left: 100%;
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+    
+    .list{
+        padding-right: 15%;
+        margin-bottom:15px;
+      
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 700px){
+    ul{
+        display: flex;
+        font-size: 15px;
+        justify-content: space-around;
+        margin-right: 10%;
+        padding-left: 50%;
+    }
+}
+@media only screen and (max-width:800px) and (min-width:587px){
+    footer{
+    background-color: #2E948A;
+    height: 210px;
+}
+.rodape{
+    justify-content: space-around;
+}
+.rodape button {
+    display: grid;
+    border-color: white;
+    background: #2E948A;
+    color: white;
+    border-bottom-color: white;
+    width: 180%;
+    margin-left: -130%;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 5%
+}
+.rodape button p{
+    font-size: 160%;
+    margin-top: 4%;
+}
+#logofooter{
+    padding-top: 1%;
+    padding-left: 30%;
+}
+.list2 ul a li{
+    font-size: 130%;
+    color: white;
+}
+.list2{
+    padding-top: 1%;
+    padding-right: 20%;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.rodape .list2 ul{
+    display: grid;
+    padding-top: 70px;
+    margin-left: -500px;
+}
+.rodape li{
+    padding-top: 20%
+}
+#butao1{
+    padding-top: 70%;
+}
+.rodape img{
+    width: 120%;
+}
+.rodape a{
+    display:flex;
+    
+}
+  }
+ 
+ @media only screen and (max-width: 980px) and (min-width:650px){
+  .conteudos{
+    background: #E5E5E5;
+}
+
+.linha1 {
+    display: grid;
+    justify-content: center;
+    padding-left: 8%;
+    padding-top: 7%;
+}
+.linha1 h3{
+    font-size: 175%;
+    padding-top: 5%;
+    color: #FF4081;
+    font-size: 230%;
+}
+.linha1 p{
+    margin-right: 15%;
+    padding-top: 5%;
+    font-size: 150%;
+}
+.linha2 {
+    display: grid;
+    justify-content: space-around;
+    padding-left: 8%;
+    margin-top: -12%;
+}  
+.linha2 h3{
+    font-size: 175%;
+    padding-top: 5%;
+    color: #FF4081;
+    font-size: 230%;
+}
+.linha2 p{
+    margin-right: 15%;
+    padding-top: 5%;
+    font-size: 150%;
+}
+.linha3 {
+    display: grid;
+    justify-content: space-around;
+    padding-left: 8%;
+    margin-top: -12%;
+}  
+.linha3 h3{
+    font-size: 175%;
+    padding-top: 5%;
+    color: #FF4081;
+    font-size: 230%;
+}
+.linha3 p{
+    margin-right: 15%;
+    padding-top: 5%;
+    font-size: 150%;
+}
+.conteudos img{
+    width: 50%;
+    height: 30%;
+    align-items: center;
+}
+.conteudo2{
+    margin-top: -15%;
+}
+.conteudo4{
+    margin-top: -15%;
+}
+.conteudo6{
+    margin-top: -15%;
+}
+
+
+.maisconteudo{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 7%;
+}
+.text h1{
+    color: #2E948A;
+}
+.text h1{
+    font-size: 200%;
+    width: 70%;
+}
+.text p{
+    font-size: 120%;
+    padding-top: 5%;
+    height: 100%;
+    margin-right: -90%;
+}
+.text{
+    padding-top: 4%;
+    padding-left: 5%;
+}
+#img{
+    padding-top: 4%;
+    padding-left: 25%;
+}
+#img img{
+    width: 100%;
+    height: 100%;
+}
+ }
+
+ @media only screen and (max-width:649px){
+    .conteudos{
+      background: #E5E5E5;
+  }
+  
+  .linha1 {
+      display: grid;
+      justify-content: center;
+      padding-left: 8%;
+      padding-top: 7%;
+  }
+  .linha1 h3{
+      font-size: 175%;
+      padding-top: 5%;
+      color: #FF4081;
+      font-size: 180%;
+  }
+  .linha1 p{
+      margin-right: 15%;
+      padding-top: 5%;
+      font-size: 120%;
+  }
+  .linha2 {
+      display: grid;
+      justify-content: space-around;
+      padding-left: 8%;
+      margin-top: -12%;
+  }  
+  .linha2 h3{
+      font-size: 175%;
+      padding-top: 5%;
+      color: #FF4081;
+      font-size: 180%;
+  }
+  .linha2 p{
+      margin-right: 15%;
+      padding-top: 5%;
+      font-size: 120%;
+  }
+  .linha3 {
+      display: grid;
+      justify-content: space-around;
+      padding-left: 8%;
+      margin-top: -12%;
+  }  
+  .linha3 h3{
+      font-size: 175%;
+      padding-top: 5%;
+      color: #FF4081;
+      font-size: 180%;
+  }
+  .linha3 p{
+      margin-right: 15%;
+      padding-top: 5%;
+      font-size: 120%;
+  }
+  .conteudos img{
+      width: 60%;
+      height: 20%;
+      align-items: center;
+  }
+  .conteudo2{
+      margin-top: -15%;
+  }
+  .conteudo4{
+      margin-top: -15%;
+  }
+  .conteudo6{
+      margin-top: -15%;
+  }
+  
+  
+  .maisconteudo{
+     display: grid;
+      justify-content: space-around;
+      padding-bottom: 7%;
+  }
+  .text h1{
+      color: #2E948A;
+  }
+  .text h1{
+      font-size: 200%;
+      width: 70%;
+      text-align: center;
+      padding-left: 15%;
+  }
+  .text p{
+      font-size: 120%;
+      padding-top: 5%;
+      height: 100%;
+      margin-right: %;
+  }
+  .text{
+      padding-top: 4%;
+      padding-left: 5%;
+  }
+  #img{
+      padding-top: 4%;
+      padding-left: 35%;
+  }
+  #img img{
+      width: 70%;
+      height:100%;
+  }
+   }
+
+   @media only screen and (max-width:586px){
+    footer{
+    background-color: #2E948A;
+    height: 210px;
+}
+.rodape{
+    justify-content: space-around;
+}
+.rodape button {
+    display: grid;
+    border-color: white;
+    background: #2E948A;
+    color: white;
+    border-bottom-color: white;
+    width: 350%;
+    margin-left: -200%;
+    border-radius: 30px;
+    height: 55px;
+    margin-top: 18%
+}
+.rodape button p{
+    font-size: 122%;
+    margin-top: 10%;
+}
+#logofooter{
+    padding-top: 20px;
+    padding-left:35%;
+}
+.list2 ul a li{
+    font-size: 130%;
+    color: white;
+}
+.list2{
+    padding-top: 1%;
+    padding-right: 20%;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.rodape .list2 ul{
+    display: grid;
+    padding-top: 100%;
+    margin-left: -550%;
+}
+.rodape li{
+    padding-top: 20%
+}
+#butao1{
+    padding-top: 100%;
+}
+.rodape img{
+    width: 170%;
+}
+.rodape a{
+    display:flex;
+}
+  }

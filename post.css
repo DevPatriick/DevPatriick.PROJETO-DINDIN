@@ -1,0 +1,715 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+header{
+    background: #2E948A;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+}
+ul{
+    display: flex;
+    font-size: 100%;
+    justify-content: space-around;
+    margin-right: 10%;
+    padding-right: 10%;
+    padding-left:10%;
+
+}
+.list ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 15%;
+    margin-left: 10%;
+    margin-left: 10%;
+    padding-left: 10%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logoheader{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 10%;
+}
+.list{
+    padding-right: 15%;
+}
+@media only screen and (max-width: 480px){
+    .header{
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 15%;
+        padding-right: 35%;
+        background-color: #2E948A;
+        height: 170px;
+        padding-top: 1%;
+    }
+    ul{
+        display: flex;
+        font-size: 13px;
+        justify-content: space-around;
+        margin-right: 10%;
+        margin-left: 50%;
+       padding-top: -100%;
+
+    }
+    .logoheader{
+        padding-top: 10%;
+        padding-bottom: -5%;
+        padding-right: 10%;
+        width: 80%;
+        padding-left: 29%;
+    }
+    .list ul a {
+        list-style: none;
+        text-decoration: none;
+        color: white;
+        margin-left: 100%;
+        font-family: 'Ubuntu', sans-serif;
+        
+    }
+    
+    .list{
+        padding-right: 15%;
+        margin-bottom:15px;
+      
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 700px){
+    ul{
+        display: flex;
+        font-size: 15px;
+        justify-content: space-around;
+        margin-right: 10%;
+        padding-left: 50%;
+    }
+}
+
+
+.post h2{
+    text-align: center;
+    color: #FF4081;
+    font-size: 300%;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+   
+}
+.p p{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #9D9D9D;
+    font-size: 120%;
+    padding-top: 1%;
+}
+.post img{
+    width: 80%;
+    height: 500px;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.post p{
+    padding-left: 10%;
+    padding-right:10%;
+    font-size: 108%;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+    color: #000000;
+}
+.post h3{
+    font-size: 150%;
+    padding-top: 5%;
+    padding-left: 10%;
+    color: #2E948A;
+}
+
+
+
+.invest{
+    display: flex;
+    background: #F6F6F6;
+    justify-content: space-between;
+    padding-top: 10%;
+    padding-left: 3%;
+    padding-bottom: 10%;
+}
+.invest img{
+    width: 60%;
+    height: 54%;
+    padding: 10%;
+}
+.invest h2{
+    color:#FF4081;
+    font-size: 160%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.inde img{
+    width: 40%;
+    height: 50%;
+    padding-left: 30%;
+}
+.invest p{
+    font-size: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+    text-align: center;
+}
+.inde h2{
+    text-align: center;
+    padding-top: 14px
+}
+.poup h2{
+    padding-left: 8%;
+}
+.init p{
+    margin-left: -15%;
+}
+.poup p{
+    margin-left: -14%;
+}
+.init img{
+    margin-left: 3%;
+}
+.inde{
+    margin-left: -3%;
+}
+.inde p{
+    padding-top:24px;
+}
+.invest button{
+    text-align: center;
+    margin-left: 14%;
+    width: 60%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 100%;
+    background-color: #FF4081;
+    border-color: #FF4081;
+    color: white;
+    margin-top: 10%;
+}
+.init button{
+    margin-left: 50px;
+}
+.inde button{
+    margin-left: 21%;
+}
+@media only screen and (max-width: 1060px) and (min-width: 850px){
+    .invest{
+        display: grid;
+        background: #F6F6F6;
+        padding-top: 10%;
+    }
+    .invest img{
+        width: 60%;
+        height: 54%;
+        margin-left:-5%;
+    }
+    .invest h2{
+        color:#FF4081;
+        font-size: 250%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 30%;
+        text-align: center;
+    }
+    .invest p{
+        font-size: 130%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 5%;
+        text-align: center;
+        padding-left: 10%;
+    }
+    .invest button{
+        text-align: center;
+        margin-left: 14%;
+        width: 60%;
+        height: 10%;
+        border-radius: 30px;
+        font-size: 100%;
+        background-color: #FF4081;
+        border-color: #FF4081;
+        color: white;
+        margin-top: 10%;
+    }
+    .init{
+        display:flex;
+        margin-left: 5%
+    }
+    
+    .poup{
+        display: flex;
+        margin-left: 2%
+    }
+    .inde{
+        display: flex;
+        margin-left: -25%;
+    }
+    .init2{
+        padding-left: 20%;
+        height: 100%;
+        margin-left: -20%;
+    }
+    .poup2{
+        padding-left: 20%;
+        height: 100%;
+        margin-left: -30%;
+    }
+    .poup2 p{
+        margin-left: -32%;
+        padding-left: 150px;
+    }
+    .poup2 button{
+        margin-left: 24%;
+        width: 55%;
+        height: 10%;
+    }
+    .inde h2{
+        margin-left: -18%;
+        padding-top: 49%;
+    }
+    .inde p{
+        margin-left: -25%;
+    }
+    .inde img{
+        width: 50%;
+        height: 60%;
+    }
+    .inde button{
+        height: 55px;
+        width: 210px;
+        margin-left: 8%;
+        margin-top: 15%;
+    }
+}
+    @media only screen and (max-width:849px) and (min-width: 480px){
+        .invest{
+            display: grid;
+            background: #F6F6F6;
+            justify-content: space-between;
+            padding-top: 10%;
+            padding-left: 3%;
+        }
+        .invest img{
+            width: 40%;
+            height: 54%;
+            padding: 10%;
+        }
+        .invest h2{
+            color:#FF4081;
+            font-size: 200%;
+            font-family: 'Ubuntu', sans-serif;
+            padding-top: 30%;
+        
+        }
+        .inde img{
+            width: 40%;
+            height: 50%;
+            padding-left: 15%;
+        }
+        .invest p{
+            font-size: 100%;
+            font-family: 'Ubuntu', sans-serif;
+            padding-top: 5%;
+            text-align: center;
+        }
+        .inde h2{
+            text-align: center;
+           
+        }
+        .poup h2{
+            padding-left: 8%;
+        }
+        .init p{
+            margin-left: -15%;
+        }
+        .poup p{
+            margin-left: -14%;
+        }
+        .init img{
+            margin-left: -1%;
+        }
+        .inde{
+            margin-left: -3%;
+            display: flex;
+        }
+        .inde p{
+            padding-top:24px;
+        }
+        .invest button{
+            text-align: center;
+            margin-left: 14%;
+            width: 60%;
+            height: 40px;
+            border-radius: 30px;
+            font-size: 100%;
+            background-color: #FF4081;
+            border-color: #FF4081;
+            color: white;
+            margin-top: 10%;
+        }
+        .init button{
+            margin-left: 50px;
+        }
+        .inde button{
+            margin-left: 21%;
+    }
+    .poup{
+        display: flex;
+    }
+    .init{
+        display: flex;
+    }
+}
+@media only screen and (max-width:479px){
+    .invest{
+        display: grid;
+        background: #F6F6F6;
+        justify-content: space-between;
+        padding-top: 10%;
+        padding-left: 3%;
+    }
+    .invest img{
+        width: 40%;
+        height: 50%;
+        padding: 10%;
+        margin-left: -10%;
+    }
+    .invest h2{
+        color:#FF4081;
+        font-size: 140%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 15%;
+    
+    }
+    .inde img{
+        width: 40%;
+        height: 50%;
+        padding-left: 15%;
+    }
+    .invest p{
+        font-size: 100%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 5%;
+        text-align: center;
+    }
+    .inde h2{
+        text-align: center;
+       
+    }
+    .poup h2{
+        margin-left: -18%;
+        text-align: center;
+    }
+    .init p{
+        margin-left: -15%;
+    }
+    .poup p{
+        margin-left: -14%;
+    }
+    .init img{
+        margin-left: -10%;
+    }
+    .inde{
+        margin-left: -3%;
+        display: flex;
+    }
+    .inde p{
+        padding-top:24px;
+    }
+    .invest button{
+        text-align: center;
+        margin-left: 14%;
+        width: 60%;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 100%;
+        background-color: #FF4081;
+        border-color: #FF4081;
+        color: white;
+        margin-top: 10%;
+    }
+    .init button{
+        margin-left: 25px;
+    }
+    .inde button{
+        margin-left: 15%;
+}
+.poup{
+    display: flex;
+}
+.init{
+    display: flex;
+}
+.init h2{
+    margin-left: -20px;
+    text-align: center;
+}
+}
+
+.h1 h1{
+    text-align: center;
+    color: #FF4081;
+    margin-top: 10%;
+    background: #F6F6F6;
+    padding-top: 10%;
+    font-size: 280%;
+}
+
+@media only screen and (max-width:840px) and (min-width: 650px){
+    .post h2{
+        text-align: center;
+        color: #FF4081;
+        font-size: 300%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 5%;
+       
+    }
+    .p p{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #9D9D9D;
+        font-size: 120%;
+        padding-top: 1%;
+    }
+    .post img{
+        width: 80%;
+        height: 350px;
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+    .post p{
+        padding-left: 10%;
+        padding-right:10%;
+        font-size: 108%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 5%;
+        color: #000000;
+    }
+    .post h3{
+        font-size: 150%;
+        padding-top: 5%;
+        padding-left: 10%;
+        color: #2E948A;
+    }
+    
+}
+
+@media only screen and (max-width: 649px){
+    .post h2{
+        text-align: center;
+        color: #FF4081;
+        font-size: 223%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 5%;
+       
+    }
+    .p p{
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        color: #9D9D9D;
+        font-size: 120%;
+        padding-top: 1%;
+    }
+    .post img{
+        width: 80%;
+        height: 270px;
+        padding-left: 10%;
+        padding-top: 5%;
+    }
+    .post p{
+        padding-left: 10%;
+        padding-right:10%;
+        font-size: 108%;
+        font-family: 'Ubuntu', sans-serif;
+        padding-top: 5%;
+        color: #000000;
+    }
+    .post h3{
+        font-size: 150%;
+        padding-top: 5%;
+        padding-left: 10%;
+        color: #2E948A;
+    }
+    
+}
+
+footer{
+    background-color: #2E948A;
+    height: 210px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-around;
+}
+.rodape button {
+    display: grid;
+    border-color: white;
+    background: #2E948A;
+    color: white;
+    border-bottom-color: white;
+    width: 140%;
+    margin-left: -80%;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 5%
+}
+.rodape button p{
+    font-size: 160%;
+    margin-top: 4%;
+}
+#logofooter{
+    padding-top: 6%;
+    padding-left: 4%;
+}
+.list2 ul a li{
+    font-size: 130%;
+    color: white;
+}
+.list2{
+    padding-top: 1%;
+    padding-right: 20%;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.rodape .list2 ul{
+    display: grid;
+    padding-top: 60%;
+}
+.rodape li{
+    padding-top: 20%
+}
+#butao1{
+    padding-top: 30%;
+}
+@media only screen and (max-width:586px){
+    footer{
+    background-color: #2E948A;
+    height: 210px;
+}
+.rodape{
+    justify-content: space-around;
+}
+.rodape button {
+    display: grid;
+    border-color: white;
+    background: #2E948A;
+    color: white;
+    border-bottom-color: white;
+    width: 350%;
+    margin-left: -200%;
+    border-radius: 30px;
+    height: 55px;
+    margin-top: 18%
+}
+.rodape button p{
+    font-size: 122%;
+    margin-top: 10%;
+}
+#logofooter{
+    padding-top: 20px;
+    padding-left:35%;
+}
+.list2 ul a li{
+    font-size: 130%;
+    color: white;
+}
+.list2{
+    padding-top: 1%;
+    padding-right: 20%;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.rodape .list2 ul{
+    display: grid;
+    padding-top: 100%;
+    margin-left: -550%;
+}
+.rodape li{
+    padding-top: 20%
+}
+#butao1{
+    padding-top: 100%;
+}
+.rodape img{
+    width: 170%;
+}
+.rodape a{
+    display:flex;
+}
+  }
+  @media only screen and (max-width:800px) and (min-width:587px){
+    footer{
+    background-color: #2E948A;
+    height: 210px;
+}
+.rodape{
+    justify-content: space-around;
+}
+.rodape button {
+    display: grid;
+    border-color: white;
+    background: #2E948A;
+    color: white;
+    border-bottom-color: white;
+    width: 180%;
+    margin-left: -130%;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 5%
+}
+.rodape button p{
+    font-size: 160%;
+    margin-top: 4%;
+}
+#logofooter{
+    padding-top: 1%;
+    padding-left: 30%;
+}
+.list2 ul a li{
+    font-size: 130%;
+    color: white;
+}
+.list2{
+    padding-top: 1%;
+    padding-right: 20%;
+    
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.rodape .list2 ul{
+    display: grid;
+    padding-top: 70px;
+    margin-left: -500px;
+}
+.rodape li{
+    padding-top: 20%
+}
+#butao1{
+    padding-top: 70%;
+}
+.rodape img{
+    width: 120%;
+}
+.rodape a{
+    display:flex;
+    
+}
+  }
